@@ -37,7 +37,8 @@ CS_TPL = """
             "insecure": "red",
             "weak": "yellow",
             "recommended": "green",
-            "secure": "green"
+            "secure": "green",
+            "unknown": "white"
         },
 
         "default": "unknown",
