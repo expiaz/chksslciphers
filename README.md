@@ -7,12 +7,12 @@ It comes with 2 baselines:
 - anssi: taken from [Recommandations de sécurité relatives à TLS](https://www.ssi.gouv.fr/guide/recommandations-de-securite-relatives-a-tls/)
 - ciphersuite: taken from [ciphersuite.info](https://ciphersuite.info/)
 
-You can provide your own baseline based on the ones in the `baselines` directory, just add the file as a parameter or inside the `baslines` directory.
+You can provide your own baseline based on the ones in the `baselines` directory, just add the file as a parameter or inside the `baselines` directory.
 
 ## Installation
 
 Just copy the python script somewhere with the baselines directory.
-No dependancies, it hand-made and real dirty, no worries argument parser should arrive soon.
+No dependencies, hand-made and real dirty, no worries argument parser should arrive soon™.
 
 ## Usage
 
