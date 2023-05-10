@@ -239,6 +239,7 @@ for raw in sys.stdin:
                 # end of ciphers
                 output('')
                 testing_ciphers = False
+                current_protocol = None
             else:
                 if printed_proto_header == False:
                     rating = fmt_rating(
@@ -254,8 +255,8 @@ for raw in sys.stdin:
                 
                 if cipher_iana not in baseline['ciphers']['values']:
                     rating = fmt_rating(
-                        baseline['ciphers']['values']['default'],
-                        baseline['ciphers']['colors'][baseline['ciphers']['values']['default']]
+                        baseline['ciphers']['default'],
+                        baseline['ciphers']['colors'][baseline['ciphers']['default']]
                     )
                     output(f" {cipher_iana:<50} {rating:<20}")
                 else:
